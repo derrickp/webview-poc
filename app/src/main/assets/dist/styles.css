@@ -1,0 +1,49 @@
+.app {
+  display: flex;
+  text-align: center;
+  font-family: Roboto; }
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75em;
+  margin: 0.75em; }
+
+.header {
+  padding-bottom: 0.5em; }
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  width: 15.0em;
+  background: grey;
+  height: 225em; }
+  .card-list.drag-over {
+    background: lightblue; }
+  .card-list.error {
+    background: indianred; }
+
+.score-container {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline; }
+  .score-container button {
+    height: 2.5em;
+    width: 7.5em;
+    margin: 0.5em; }
+
+.score {
+  color: darkgreen;
+  margin: 0.5em; }
+
+.card {
+  width: 12.0em;
+  height: 1.0em;
+  user-select: none;
+  padding: 1.0em;
+  margin: 0.5em;
+  background: whitesmoke; }
+
+.card-dragging {
+  background: lightgreen; }
